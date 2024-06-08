@@ -134,7 +134,7 @@
         
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?data" alt="Data Science">
+                <img src="img/fabio-oyXis2kALVg-unsplash.jpg" alt="Data Science">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost.html " class="article-link">
@@ -150,7 +150,7 @@
         
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?machine-learning" alt="Machine Learning">
+                <img src="img/arvin-mantilla-YCIqvvIn55M-unsplash.jpg" alt="Machine Learning">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost1.html " class="article-link">
@@ -164,7 +164,7 @@
         
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?technology" alt="Technology">
+                <img src="img/nasa-Q1p7bh3SHj8-unsplash.jpg" alt="Technology">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost2.html " class="article-link">
@@ -178,7 +178,7 @@
         
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?science" alt="Science">
+                <img src="img/dan-cristian-padure-h3kuhYUCE9A-unsplash.jpg" alt="Science">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost3.html " class="article-link">
@@ -192,7 +192,7 @@
         
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?nature" alt="Nature">
+                <img src="img/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg" alt="Nature">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost4.html " class="article-link">
@@ -205,7 +205,7 @@
         </div>
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?coding" alt="Coding">
+                <img src="img/alex-chumak-zGuBURGGmdY-unsplash.jpg" alt="Coding">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost5.html " class="article-link">
@@ -218,7 +218,7 @@
         </div>
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?business" alt="Bussiness">
+                <img src="img/daria-nepriakhina-xY55bL5mZAM-unsplash.jpg" alt="Bussiness">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost6.html " class="article-link">
@@ -231,7 +231,7 @@
         </div>
         <div class="home-article">
             <div class="home-article-img">
-                <img src="https://source.unsplash.com/featured/?health" alt="Health">
+                <img src="img/brooke-lark-nTZOILVZuOg-unsplash.jpg" alt="Health">
             </div>
             <div class="home-article-content font1">
                 <a href="/blogpost7.html " class="article-link">
@@ -263,7 +263,7 @@
                 <p><strong>Anwayee Bera:</strong> Very informative. Thanks for sharing!</p>
                 <span>08 April</span>
             </div>
-            <!-- Add more comments here -->
+           
         </div>
     </div>
 
@@ -273,18 +273,18 @@
     </div>
 
     <script>
-        // Function to handle form submission
+        
         document.addEventListener('DOMContentLoaded', function () {
             const commentForm = document.querySelector('.comment-form');
             const commentsList = document.querySelector('.comments-list');
 
             commentForm.addEventListener('submit', function (event) {
-                event.preventDefault(); // Prevent form submission
+                event.preventDefault(); 
                 const commentTextarea = commentForm.querySelector('textarea');
                 const commentText = commentTextarea.value.trim();
 
                 if (commentText !== '') {
-                    // Create a new comment element
+                    
                     const comment = document.createElement('div');
                     comment.classList.add('comment');
                     const strong = document.createElement('strong');
@@ -296,10 +296,10 @@
                     comment.appendChild(commentContent);
                     comment.appendChild(commentDate);
 
-                    // Add the new comment to the comments list
+                    
                     commentsList.appendChild(comment);
 
-                    // Clear the textarea
+           
                     commentTextarea.value = '';
                 }
             });
